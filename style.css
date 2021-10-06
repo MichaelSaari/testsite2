@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+  color: rgba(100, 255, 10, .4);
+  background-color: rgba(255, 0, 125, .3);
+}
+pre {
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-size: 24px;
+  color: blue;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+}
+/*
+img, video, iframe, audio {
+  display: block;
+  margin: auto;
+}
+*/
+.abstract {
+  background-color: aqua;
+  color: azure;
+  padding: 20px;
+  border: solid rgba(255, 0, 4, 1);
+  margin: 25px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.boring {
+  background-color: gray;
+}
+/*Page 2*/
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+.placement{
+	position: absolute;
+}
+
+.lefteye {
+  left: 485px;
+  top: 878px;
+}
+.redeye{
+  left: 485px;
+  top: 878px;
+}
+
+.righteye{
+	width: 156px;
+	height: 64px;
+	left: 899px;
+	top: 900px;
+	opacity: 0;
+	transition: width 1s, height 2s, opacity 1.5s, left 3s;
+	transition-delay: width 3s, height 3s, opacity 3s, left 3s;
+}
+.righteye:hover{
+	width: 200px;
+	height: 125px;	
+	opacity: 1;
+	left: 925px;
+}
+.mouth{
+  left: 577px;
+  top: 1309px;
+}
+
+.smile{
+  left: 588px;
+  top: 1320px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
